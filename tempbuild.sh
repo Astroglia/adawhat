@@ -1,0 +1,2 @@
+gprbuild temp.adb
+./temp
