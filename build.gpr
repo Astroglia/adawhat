@@ -1,0 +1,13 @@
+-- https://docs.adacore.com/gprbuild-docs/html/gprbuild_ug/gnat_project_manager.html
+project Build is 
+
+for Source_Dirs use ("./**");
+for Ignore_Source_Sub_Dirs use (".git", "@*");
+
+for Object_Dir use "common/obj";
+
+for Exec_Dir use "."; 
+
+for Main use ("temp.adb");
+
+end Build;
